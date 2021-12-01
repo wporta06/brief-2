@@ -1,72 +1,92 @@
 {
-    "specialitys": [{
-            "id": 1,
-            "name": "math"
-        },
-        {
-            "id": 2,
-            "name": "svt"
-        },
-        {
-            "name": "zeded",
-            "id": 4
-        },
-        {
-            "name": "dd",
-            "id": 5
-        },
-        {
-            "name": "eezf",
-            "speciality": "zeded",
-            "id": 6
-        },
-        {
-            "name": "sss",
-            "speciality": "5",
-            "id": 7
-        },
-        {
-            "name": "dddq",
-            "id": 8
-        }
-    ],
-    "teachers": [{
-            "id": 1,
-            "name": "ahmed",
-            "id_s": 1
-        },
-        {
-            "id": 2,
-            "name": "ayoub",
-            "id_s": 2
-        },
-        {
-            "id": 3,
-            "name": "saad",
-            "id_s": 1
-        }
-    ],
-    "subject": [{
-        "id": 1,
-        "name": "aa"
-    }],
-    "levels": [{
-        "id": 1,
-        "level": "aa",
-        "min_score": 100,
-        "max_score": 400
-    }],
-    "questions": [{
-        "id": 1,
-        "id_t": 1,
-        "id_sub": 1,
-        "id_score": 1,
-        "question": "aaaaaa",
-        "answer": [
-            "aa",
-            "bb",
-            "cc"
-        ],
-        "correctindex": 1
-    }]
+  "specialitys": [
+    {
+      "id": 1,
+      "name": "math"
+    },
+    {
+      "id": 2,
+      "name": "svt"
+    },
+    {
+      "name": "zeded",
+      "id": 4
+    },
+    {
+      "name": "dd",
+      "id": 5
+    },
+    {
+      "name": "eezf",
+      "speciality": "zeded",
+      "id": 6
+    },
+    {
+      "name": "ddd",
+      "speciality": "4",
+      "id": 7
+    },
+    {
+      "name": "newteacher",
+      "id_s": "6",
+      "id": 8
+    },
+    {
+      "name": "aza",
+      "id_s": "Speciality",
+      "id": 9
+    },
+    {
+      "name": "dd",
+      "id_s": "Speciality",
+      "id": 10
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "ahmed",
+      "id_s": 1
+    },
+    {
+      "id": 2,
+      "name": "ayoub",
+      "id_s": 2
+    },
+    {
+      "id": 3,
+      "name": "saad",
+      "id_s": 1
+    }
+  ],
+  "subject": [
+    {
+      "id": 1,
+      "name": "aa",
+      "type": "parent"
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "level": "aa",
+      "min_score": 100,
+      "max_score": 400
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "id_t": 1,
+      "id_sub": 1,
+      "id_score": 1,
+      "question": "aaaaaa",
+      "answer": [
+        "aa",
+        "bb",
+        "cc"
+      ],
+      "correctindex": 1
+    }
+  ]
 }

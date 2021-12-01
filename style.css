@@ -12,3 +12,11 @@
 .form-select {
     margin-bottom: 2em;
 }
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

@@ -67,13 +67,14 @@ window.addEventListener('DOMContentLoaded', () => renderTeachers());
 // create
 const form = document.querySelector("form");
 console.log(form);
+console.log(formselect.value);
 const createPost = async(e) => {
     e.preventDefault();
     // console.log(formselect.value);
 
     const doc = {
         name: form.namee.value,
-        speciality: formselect.value,
+        id_s: formselect.value,
     }
 
     await fetch('http://localhost:3000/specialitys', {

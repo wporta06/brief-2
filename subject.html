@@ -40,19 +40,40 @@
     <div class="content ">
 
         <div class="d-flex justify-content-center">
-            <!-- <button>ddd</button> -->
-            <div class="input-group ">
-                <div class="">
-                    <span class="input-group-text" id="inputGroup-sizing-default">Subject Name</span>
-                </div>
-                <input type="text" class="form-control addinput" aria-label="Default" aria-describedby="inputGroup-sizing-default">
-                <button type="button" class="btn btn-outline-primary addbtn">ADD</button>
 
+            <select class="form-select typeselect" aria-label="Default select example">
+                    <option selected>Select Type</option>
+                    <option value="parent">Parent</option>
+                    <option value="child">Child</option>
+                    
+            </select>
+
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="input-group ">
+
+                <form>
+                    <div class="childselect " style="display: none;">
+                        <input type="text" class="form-control" placeholder="Subject Parent">
+                    </div>
+                    <div class="parentselect" style="display: none;">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select Parent Subject</option>
+                            <option value="parent">Parent</option>
+                            
+                        </select>
+                    </div>
+                    <button class="btn btn-outline-primary addbtn">ADD</button>
+                </form>
             </div>
+
         </div>
 
 
-        <div class="datatable">
+
+
+        <div class="datatable ">
             <table class="table">
                 <thead class="thead-dark">
                     <tr>
@@ -73,4 +94,4 @@
 </body>
 
 </html>
-<script src="js/index.js"></script>
+<script src="js/subject.js"></script>

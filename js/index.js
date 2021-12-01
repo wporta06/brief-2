@@ -65,4 +65,4 @@ setTimeout(function() {
             window.location.replace('file:///C:/Users/walid/Desktop/b2/index.html')
         })
     })
-}, 200)
+}, 300)
